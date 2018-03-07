@@ -1,6 +1,6 @@
 
 
-public class ExOb {
+public class ExOb Extends class EX {
 
 	public static void main(String args[])
 	
