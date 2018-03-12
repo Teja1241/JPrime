@@ -6,7 +6,7 @@ public class FibCnstr
 {
   static int a=100;  // if this value is not static
  
-  public void fib(int a) 
+  private void fib(int a) 
   {
 	  int n1=1;
 	  int n2=1;
@@ -31,7 +31,7 @@ public class FibCnstr
   public static void main(String args[])
 	{
      FibCnstr f1 = new FibCnstr();
-     f1.fib(a);  // reason for passing value in the parametre
+     f1.fib(a);  
      
      
      
