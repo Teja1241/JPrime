@@ -1,8 +1,8 @@
 
 
-public class FibCnstrC {
+public class FibCnstrCOvrLding {
 
-	public FibCnstrC(int a) {
+	public FibCnstrCOvrLding(int a) {
 		int n1 = 1;
 		int n2 = 1;
 		int n3;
@@ -22,7 +22,7 @@ public class FibCnstrC {
 
 	}
 
-	public FibCnstrC(double b) 
+	public FibCnstrCOvrLding(double b) 
 	{
 		System.out.println("z is " + b);
 	}
@@ -35,7 +35,7 @@ public class FibCnstrC {
 	 * }
 	 */
 
-	public FibCnstrC(String g)
+	public FibCnstrCOvrLding(String g)
    {  
 	  System.out.println("value of string is" + g);
 	   
@@ -43,9 +43,9 @@ public class FibCnstrC {
 
 	public static void main(String args[]) 
 	{
-		FibCnstrC z = new  FibCnstrC(100);
-		FibCnstrC y = new  FibCnstrC(10.568);
-		FibCnstrC x = new  FibCnstrC("string");
+		FibCnstrCOvrLding z = new  FibCnstrCOvrLding(100);
+		FibCnstrCOvrLding y = new  FibCnstrCOvrLding(10.568);
+		FibCnstrCOvrLding x = new  FibCnstrCOvrLding("string");
 				
 	}
 
