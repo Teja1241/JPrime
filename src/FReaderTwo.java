@@ -14,6 +14,7 @@ public class FReaderTwo {
 		 int i;
 		 while ((i = one.read())!=-1)
 			  System.out.print((char)i);
+		      one.close();
 		 
 	
 	} catch (FileNotFoundException e) {
